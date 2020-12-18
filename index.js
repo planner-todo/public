@@ -5,7 +5,7 @@ const inputCreateTodo = dialogCreateTodo.querySelector('input')
 const errorCreateTodo = dialogCreateTodo.querySelector('span')
 const dialogNewList = document.querySelector('dialog#new-list')
 const buttonNewList = document.querySelector('button#new-list')
-let table = document.querySelector('table tbody')
+const table = document.querySelector('table tbody')
 let token, removeId
 
 
